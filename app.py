@@ -7,7 +7,7 @@ from ExtractInvoiceData import PDFToExcelDialog        # Integrated Extract Invo
 class MainApp(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
-        self.resize(500, 400)
+        self.resize(600, 500)
         # Create QStackedWidget to hold multiple pages
         self.stack = QtWidgets.QStackedWidget()
         self.setCentralWidget(self.stack)

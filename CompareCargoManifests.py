@@ -83,6 +83,9 @@ class CompareCargoPage(QtWidgets.QWidget):
         self.pushButton = QtWidgets.QPushButton(Dialog)
         self.pushButton.setGeometry(QtCore.QRect(200, 70, 120, 30))
         self.pushButton.setObjectName("pushButton")
+        self.pushButton.setStyleSheet(
+            "border-radius: 10px; background-color: #9E4FFF; color: white;"
+        )
 
         # Add Parent 2
         self.label_4 = QtWidgets.QLabel(Dialog)
@@ -92,6 +95,9 @@ class CompareCargoPage(QtWidgets.QWidget):
         self.pushButton_3 = QtWidgets.QPushButton(Dialog)
         self.pushButton_3.setGeometry(QtCore.QRect(200, 120, 120, 30))
         self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_3.setStyleSheet(
+            "border-radius: 10px; background-color: #9E4FFF; color: white;"
+        )
 
         # Add Child Manifest
         self.label_3 = QtWidgets.QLabel(Dialog)
@@ -101,6 +107,9 @@ class CompareCargoPage(QtWidgets.QWidget):
         self.pushButton_5 = QtWidgets.QPushButton(Dialog)
         self.pushButton_5.setGeometry(QtCore.QRect(200, 170, 120, 30))
         self.pushButton_5.setObjectName("pushButton_5")
+        self.pushButton_5.setStyleSheet(
+            "border-radius: 10px; background-color: #9E4FFF; color: white;"
+        )
 
         # Table for Comparing (output)
         self.tableView = QtWidgets.QTableView(Dialog)
@@ -109,18 +118,25 @@ class CompareCargoPage(QtWidgets.QWidget):
 
         # Download Button
         self.pushButton_4 = QtWidgets.QPushButton(Dialog)
-        self.pushButton_4.setGeometry(QtCore.QRect(250, 360, 100, 30))
+        self.pushButton_4.setGeometry(QtCore.QRect(50, 390, 500, 30))
         self.pushButton_4.setObjectName("pushButton_4")
+        self.pushButton_4.setStyleSheet(
+            "border-radius: 10px; background-color: #9E4FFF; color: white;"
+        )
 
         # Run Button
         self.pushButton_6 = QtWidgets.QPushButton(Dialog)
-        self.pushButton_6.setGeometry(QtCore.QRect(50, 400, 500, 40))
+        self.pushButton_6.setGeometry(QtCore.QRect(50, 430, 500, 40))
         self.pushButton_6.setObjectName("pushButton_6")
+        self.pushButton_6.setStyleSheet(
+            "border-radius: 10px; background-color: #9E4FFF; color: white;"
+        )
 
         # Back Button
         self.pushButton_back = QtWidgets.QPushButton(Dialog)
         self.pushButton_back.setGeometry(QtCore.QRect(10, 10, 80, 30))
         self.pushButton_back.setObjectName("pushButton_back")
+
 
         # Status label for messages (if needed, can be repositioned)
         self.status_label = QtWidgets.QLabel(Dialog)
